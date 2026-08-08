@@ -343,16 +343,56 @@ All security testing in this project is intended for authorized laboratory use.
 
 # 📸 Evidence
 
-Screenshots documenting the project will be stored in the `screenshots` directory.
+All screenshots collected during this project are stored in the
+[`screenshots`](./screenshots) directory.
 
-Planned evidence includes:
+## Kali Linux Environment
 
-- VirtualBox network configuration
-- Successful Kali-to-Ubuntu ping
-- Nmap port scan
-- Nmap service/version scan
-- Apache default page
-- DVWA successful database setup
+Kali Linux was used as the attacker machine for reconnaissance and testing.
+
+![Kali Linux Virtual Machine](./screenshots/01-kali-vm.png)
+
+---
+
+## VirtualBox Network Configuration
+
+The laboratory used NAT for internet connectivity and a Host-Only Adapter
+for communication between Kali Linux and Ubuntu.
+
+![VirtualBox Network Configuration](./screenshots/02-virtualbox-network-settings.png)
+
+---
+
+## Network Connectivity
+
+Connectivity between Kali Linux and the Ubuntu target was verified using ICMP.
+
+![Successful Kali to Ubuntu Ping](./screenshots/06-successful-ping.png)
+
+---
+
+## Nmap Service Enumeration
+
+Nmap service detection identified Apache HTTP Server running on TCP port 80.
+
+![Nmap Service Scan](./screenshots/03-nmap-service-scan.png)
+
+---
+
+## DVWA Database Setup
+
+The DVWA database was successfully initialized.
+
+![DVWA Setup](./screenshots/04-dvwa-setup.png)
+
+---
+
+## DVWA Dashboard
+
+After successful configuration, the DVWA application was accessible from the
+attacker machine.
+
+![DVWA Dashboard](./screenshots/05-dvwa-dashboard.png)
 
 ---
 
