@@ -106,6 +106,7 @@ The Kali machine successfully communicated with the Ubuntu target.
 
 **Finding:** The target was reachable over the Host-Only network.
 
+![Successful Ping](screenshots/06-successful-ping.png)
 ---
 
 ## 2. Nmap Port Scan
@@ -130,6 +131,8 @@ PORT   STATE SERVICE
 TCP port **80** was open and running HTTP.
 
 This indicated that a web server was accessible on the target.
+
+![Nmap Service Scan](screenshots/03-nmap-service-scan.png)
 
 ---
 
@@ -161,6 +164,8 @@ The scan identified:
 
 This confirmed that the target was hosting a web server.
 
+![Apache Web Server](screenshots/03-nmap-service-scan.png)
+
 ---
 
 # 🌐 Web Server Verification
@@ -179,6 +184,8 @@ This confirmed that:
 - TCP port 80 was accessible.
 - Kali could communicate with the Ubuntu web server.
 
+![Apache Web Server](screenshots/03-nmap-service-scan.png)
+
 ---
 
 # 🧪 DVWA Deployment
@@ -196,6 +203,8 @@ http://192.168.56.104/DVWA
 ```
 
 The DVWA setup page loaded successfully.
+
+![DVWA Setup](screenshots/04-dvwa-setup.png)
 
 ---
 
@@ -218,6 +227,8 @@ Setup successful!
 ```
 
 This confirmed that the DVWA database initialization was successful.
+
+![DVWA Dashboard](screenshots/05-dvwa-dashboard.png)
 
 ---
 
