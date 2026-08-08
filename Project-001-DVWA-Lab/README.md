@@ -29,14 +29,16 @@ The project covered:
 
 The objectives of this project were to:
 
-1. Build a controlled cybersecurity laboratory.
-2. Configure Kali Linux as the attacker machine.
-3. Configure Ubuntu as the target machine.
-4. Establish communication between Kali and Ubuntu.
-5. Deploy Apache and DVWA on Ubuntu.
-6. Verify that DVWA was accessible from Kali.
-7. Perform basic reconnaissance using Nmap.
-8. Document the setup, troubleshooting process, and results.
+- Build an isolated penetration testing laboratory using VirtualBox.
+- Configure Kali Linux as the attacker machine.
+- Configure Ubuntu as the target machine.
+- Establish controlled network communication between both systems.
+- Verify connectivity using ICMP.
+- Identify exposed services using Nmap.
+- Perform service/version enumeration.
+- Deploy and configure Damn Vulnerable Web Application (DVWA).
+- Establish a foundation for future web application penetration testing.
+- Document the entire process and supporting evidence using Markdown and GitHub.
 
 ---
 
@@ -413,22 +415,31 @@ The troubleshooting process also reinforced the importance of understanding netw
 
 ---
 
-# 🚀 Next Steps
+## 🏁 Conclusion
 
-The next phase will move from **lab construction and reconnaissance** into actual web application security testing.
+This project successfully established a controlled penetration testing
+laboratory using Kali Linux and Ubuntu.
 
-Planned areas include:
+Network connectivity was established between the attacker and target
+machines, and Nmap was used to identify the Apache web server running on
+TCP port 80.
 
-- Web enumeration
-- Burp Suite
-- OWASP Top 10
-- SQL Injection
-- Cross-Site Scripting (XSS)
-- Command Injection
-- File Inclusion
-- Authentication vulnerabilities
-- CSRF
-- Security-level comparison
+DVWA was successfully deployed and configured, providing a deliberately
+vulnerable web application for future penetration testing exercises.
+
+The project provided practical experience with:
+
+- Virtual machine networking
+- Linux administration
+- Network reconnaissance
+- Nmap service enumeration
+- Apache web servers
+- Web application deployment
+- Evidence collection
+- Technical documentation
+
+This environment will serve as the foundation for subsequent web
+application security testing projects.
 
 ---
 
